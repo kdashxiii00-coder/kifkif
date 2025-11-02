@@ -1,2 +1,2 @@
 # kifkif
-Kifkif avant-garde fashion web
+Sous les pavés, la plage.
