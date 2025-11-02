@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KIFKIF — Awakening Through Simplicity</title>
+  <meta name="description" content="KIFKIF — thương hiệu avant-garde, lấy cảm hứng từ Guy Debord.">
+  <meta property="og:title" content="KIFKIF — Awakening Through Simplicity" />
+  <meta property="og:description" content="A fashion brand exploring awareness through avant-garde design." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">KIFKIF</div>
+    <button id="lang-toggle">EN</button>
+  </header>
+
+  <section class="hero fade-in">
+    <h1 class="slogan">Awakening through simplicity</h1>
+    <p class="subtext">Tỉnh thức giữa xã hội giả tạo — inspired by Guy Debord</p>
+  </section>
+
+  <section class="gallery fade-in">
+    <img src="assets/images/mood1.jpg" alt="avant-garde look" />
+    <img src="assets/images/mood2.jpg" alt="fashion composition" />
+    <img src="assets/images/mood3.jpg" alt="editorial detail" />
+  </section>
+
+  <section class="about fade-in">
+    <h2>PHILOSOPHY</h2>
+    <p data-lang="vi">
+      KIFKIF là biểu tượng của sự tỉnh thức. Chúng tôi tin rằng con người đang bị dẫn dắt bởi thế giới giả tưởng — nơi mọi giá trị thật bị che mờ. KIFKIF tồn tại để khơi lại hương vị nguyên bản của cuộc sống.
+    </p>
+    <p data-lang="en" style="display:none;">
+      KIFKIF stands for awakening. We believe people are guided by an illusory world where true values fade. KIFKIF exists to rediscover life's original essence.
+    </p>
+  </section>
+
+  <footer class="footer fade-in">
+    <p>© 2025 KIFKIF — All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
