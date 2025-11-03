@@ -30,29 +30,28 @@ body {
   margin: 0;
 }
 
-/* Xóa .subtext vì không còn dùng */
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   padding: 2rem;
+  /* THAY ĐỔI 1: Thêm dòng này để căn giữa tấm ảnh duy nhất */
+  justify-items: center;
 }
 
 .gallery img {
-  width: 100%;
-  height: auto; /* Sửa lỗi cắt ảnh */
+  /* THAY ĐỔI 2: Sửa 'width: 100%' thành 'max-width: 100%' */
+  max-width: 100%; /* Giúp ảnh co lại nếu màn hình hẹp */
+  height: auto;     /* Giữ đúng tỷ lệ */
+  /* Bỏ 'width: 100%' sẽ ngăn ảnh bị kéo giãn to hơn kích thước gốc */
 }
 
 .about {
   max-width: 700px;
   margin: 4rem auto;
-  /* THAY ĐỔI 4 (CSS): Canh lề trái cho toàn bộ khối này */
   text-align: left; 
   line-height: 1.7;
 }
-
-/* Xóa .sub-philosophy và .about h2 vì không cần căn lề riêng nữa */
 
 .footer {
   text-align: center;
